@@ -1,0 +1,57 @@
+
+> acomund-site@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.5:3000
+✓ Ready in 733ms
+✓ Running next.config.ts took 62ms
+
+ GET / 200 in 2.8s (next.js: 2.5s, application-code: 296ms)
+ GET / 200 in 113ms (next.js: 14ms, application-code: 99ms)
+ GET / 200 in 99ms (next.js: 6ms, application-code: 93ms)
+ GET /quem-somos 200 in 63ms (next.js: 11ms, application-code: 52ms)
+ GET /produtos 200 in 53ms (next.js: 7ms, application-code: 47ms)
+ GET /servicos 200 in 56ms (next.js: 6ms, application-code: 49ms)
+ GET /segmentos 200 in 56ms (next.js: 7ms, application-code: 49ms)
+ GET /conteudos 200 in 60ms (next.js: 6ms, application-code: 53ms)
+ GET /solicite-um-orcamento 200 in 58ms (next.js: 5ms, application-code: 52ms)
+ GET /contato 200 in 59ms (next.js: 6ms, application-code: 53ms)
+ GET /produtos/acos-inoxidaveis 200 in 48ms (next.js: 5ms, application-code: 43ms)
+ GET / 200 in 95ms (next.js: 7ms, application-code: 88ms)
+ GET / 200 in 124ms (next.js: 6ms, application-code: 118ms)
+ GET / 200 in 124ms (next.js: 7ms, application-code: 117ms)
+ GET / 200 in 166ms (next.js: 12ms, application-code: 154ms)
+ GET /solicite-um-orcamento 200 in 49ms (next.js: 20ms, application-code: 29ms)
+ GET /quem-somos 200 in 34ms (next.js: 11ms, application-code: 23ms)
+ GET /solicite-um-orcamento 200 in 37ms (next.js: 13ms, application-code: 24ms)
+✓ Compiled in 174ms
+✓ Compiled in 165ms
+ GET / 200 in 65ms (next.js: 20ms, application-code: 46ms)
+ GET / 200 in 56ms (next.js: 15ms, application-code: 41ms)
+ GET / 200 in 48ms (next.js: 6ms, application-code: 42ms)
+✓ Compiled in 431ms
+ GET / 200 in 128ms (next.js: 61ms, application-code: 67ms)
+ GET / 200 in 65ms (next.js: 24ms, application-code: 41ms)
+ GET / 200 in 301ms (next.js: 72ms, application-code: 229ms)
+ GET / 200 in 465ms (next.js: 88ms, application-code: 377ms)
+ GET / 200 in 63ms (next.js: 11ms, application-code: 52ms)
+ GET / 200 in 307ms (next.js: 32ms, application-code: 275ms)
+✓ Compiled in 142ms
+ GET / 200 in 242ms (next.js: 15ms, application-code: 228ms)
+ GET / 200 in 16ms
+ GET / 200 in 438ms (next.js: 96ms, application-code: 342ms)
+ GET / 200 in 226ms (next.js: 162ms, application-code: 64ms)
+✓ Compiled in 68ms
+✓ Compiled in 38ms
+ GET / 200 in 62ms (next.js: 17ms, application-code: 45ms)
+ GET / 200 in 88ms (next.js: 5ms, application-code: 83ms)
+ GET / 200 in 173ms (next.js: 7ms, application-code: 167ms)
+ GET /quem-somos 200 in 115ms (next.js: 81ms, application-code: 35ms)
+ GET /produtos 200 in 80ms (next.js: 40ms, application-code: 40ms)
+ GET /servicos 200 in 34ms (next.js: 10ms, application-code: 24ms)
+ GET /segmentos 200 in 37ms (next.js: 13ms, application-code: 24ms)
+ GET /conteudos 200 in 37ms (next.js: 12ms, application-code: 24ms)
+ GET / 200 in 57ms (next.js: 7ms, application-code: 50ms)
+ GET /contato 200 in 33ms (next.js: 10ms, application-code: 23ms)

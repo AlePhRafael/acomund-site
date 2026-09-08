@@ -1,0 +1,666 @@
+[browser] Image with src "/images/logo-acomund.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/images/logo-acomund.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/logo-acomund.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/logo-acomund.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+⨯ ./src/app/[...slug]/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mArrowLeft[0m, [33mArrowRight[0m, [33mCheckCircle2[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mFooter[0m, [33mHeader[0m, [33mWhatsAppButton[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mQuoteForm[0m } [36mfrom[0m [32m"@/components/quote-form"[0m;
+  [90m5 |[0m [36mimport[0m [32m"../subpage.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[...slug]/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mArrowLeft[0m, [33mArrowRight[0m, [33mCheckCircle2[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mFooter[0m, [33mHeader[0m, [33mWhatsAppButton[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mQuoteForm[0m } [36mfrom[0m [32m"@/components/quote-form"[0m;
+  [90m5 |[0m [36mimport[0m [32m"../subpage.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[...slug]/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mArrowLeft[0m, [33mArrowRight[0m, [33mCheckCircle2[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mFooter[0m, [33mHeader[0m, [33mWhatsAppButton[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mQuoteForm[0m } [36mfrom[0m [32m"@/components/quote-form"[0m;
+  [90m5 |[0m [36mimport[0m [32m"../subpage.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[...slug]/page.tsx:3:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m1 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m2 |[0m [36mimport[0m { [33mArrowLeft[0m, [33mArrowRight[0m, [33mCheckCircle2[0m } [36mfrom[0m [32m"lucide-react"[0m;
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mFooter[0m, [33mHeader[0m, [33mWhatsAppButton[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m [36mimport[0m { [33mQuoteForm[0m } [36mfrom[0m [32m"@/components/quote-form"[0m;
+  [90m5 |[0m [36mimport[0m [32m"../subpage.css"[0m;
+  [90m6 |[0m
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/site'
+  [90m2 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m"next/link"[0m;
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+
+Import map: aliased to relative './src/components/site' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:5:1
+Error: Module not found: Can't resolve '@/lib/data'
+  [90m3 |[0m [36mimport[0m { [33mArrowRight[0m, [33mAward[0m, [33mCheckCircle2[0m, [33mFactory[0m, [33mGlobe2[0m, [33mRuler[0m, [33mShieldCheck[0m, [33mTruck[0m } [36mfrom[0m.[32m..[0m
+  [90m4 |[0m [36mimport[0m { [33mHeader[0m, [33mFooter[0m, [33mWhatsAppButton[0m, [33mSectionHeading[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m5 |[0m [36mimport[0m { categories, services, segments, articles } [36mfrom[0m [32m"@/lib/data"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m
+  [90m7 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mHome[0m() {
+  [90m8 |[0m   [36mreturn[0m (
+
+Import map: aliased to relative './src/lib/data' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[...slug]/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/quote-form'
+  [90m2 |[0m [36mimport[0m { [33mArrowLeft[0m, [33mArrowRight[0m, [33mCheckCircle2[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m3 |[0m [36mimport[0m { [33mFooter[0m, [33mHeader[0m, [33mWhatsAppButton[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mQuoteForm[0m } [36mfrom[0m [32m"@/components/quote-form"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"../subpage.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m pages: [33mRecord[0m<string, { title: string; intro: string; items: string[] }> = {
+
+Import map: aliased to relative './src/components/quote-form' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/[...slug]/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/quote-form'
+  [90m2 |[0m [36mimport[0m { [33mArrowLeft[0m, [33mArrowRight[0m, [33mCheckCircle2[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m3 |[0m [36mimport[0m { [33mFooter[0m, [33mHeader[0m, [33mWhatsAppButton[0m } [36mfrom[0m [32m"@/components/site"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mQuoteForm[0m } [36mfrom[0m [32m"@/components/quote-form"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [32m"../subpage.css"[0m;
+  [90m6 |[0m
+  [90m7 |[0m [36mconst[0m pages: [33mRecord[0m<string, { title: string; intro: string; items: string[] }> = {
+
+Import map: aliased to relative './src/components/quote-form' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Image with src "/images/logo-acomund.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/logo-acomund.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/logo-acomund.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
