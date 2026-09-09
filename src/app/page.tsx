@@ -1,25 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Award, CheckCircle2, Factory, Globe2, Ruler, ShieldCheck, Truck } from "lucide-react";
+import { ArrowRight, Award, CheckCircle2, Factory, Globe2, MessageCircle, Phone, Ruler, ShieldCheck, Truck } from "lucide-react";
 import { Header, Footer, WhatsAppButton, SectionHeading } from "@/components/site";
 import { categories, services, segments, articles } from "@/lib/data";
+import { company, companyLinks } from "@/config/company";
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <section className="hero">
+      <section className="hero" aria-labelledby="home-title">
         <Image src="/images/hero-aco-industrial.png" alt="Aços especiais organizados em um centro de distribuição industrial" fill priority className="hero-image" />
         <div className="hero-overlay" />
         <div className="container hero-content">
           <p className="eyebrow light">Precisão para a indústria</p>
-          <h1>Aços especiais para projetos que exigem desempenho.</h1>
+          <h1 id="home-title">Aços especiais para projetos que exigem desempenho.</h1>
           <p className="hero-copy">Fornecimento de aços inoxidáveis, ligados e ligas especiais com precisão técnica, rastreabilidade e atendimento personalizado.</p>
           <div className="button-row"><Link className="button button-primary" href="/solicite-um-orcamento">Solicitar orçamento <ArrowRight size={18} /></Link><Link className="button button-ghost" href="/produtos">Conhecer materiais</Link></div>
         </div>
       </section>
 
-      <section className="trust-bar"><div className="container trust-grid"><Trust icon={<ShieldCheck />} text="Atendimento técnico" /><Trust icon={<CheckCircle2 />} text="Materiais certificados" /><Trust icon={<Ruler />} text="Corte sob medida" /><Trust icon={<Truck />} text="Entrega nacional" /></div></section>
+      <section className="trust-bar" aria-label="Diferenciais da Acomund"><div className="container trust-grid"><Trust icon={<ShieldCheck />} text="Atendimento técnico" /><Trust icon={<CheckCircle2 />} text="Materiais certificados" /><Trust icon={<Ruler />} text="Corte sob medida" /><Trust icon={<Truck />} text="Entrega nacional" /></div></section>
 
       <section className="section"><div className="container"><SectionHeading eyebrow="Portfólio técnico" title="Materiais para cada desafio de engenharia" copy="Encontre a combinação certa entre resistência, durabilidade e desempenho para sua aplicação." /><div className="category-grid">{categories.map((category) => <Link href={category.href} className="category-card" key={category.title}><span className="icon-box">{category.icon}</span><h3>{category.title}</h3><p>{category.description}</p><span className="text-link">Ver categoria <ArrowRight size={15} /></span></Link>)}</div></div></section>
 
@@ -29,7 +30,7 @@ export default function Home() {
 
       <section className="section"><div className="container"><SectionHeading eyebrow="Segmentos" title="Experiência aplicada a diferentes indústrias" /><div className="segment-grid">{segments.map((segment) => <Link href={segment.href} className="segment-item" key={segment.title}><span>{segment.number}</span><div><h3>{segment.title}</h3><p>{segment.description}</p></div><ArrowRight size={18} /></Link>)}</div></div></section>
 
-      <section className="section section-blue"><div className="container callout"><div><p className="eyebrow light">Especificação técnica</p><h2>Não sabe qual liga atende melhor ao seu projeto?</h2><p>Converse com nossa equipe e receba uma orientação objetiva para sua aplicação.</p></div><Link className="button button-light" href="/contato">Falar com especialista <ArrowRight size={18} /></Link></div></section>
+      <section className="section section-blue"><div className="container callout"><div><p className="eyebrow light">Especificação técnica</p><h2>Não sabe qual liga atende melhor ao seu projeto?</h2><p>Converse com nossa equipe e receba uma orientação objetiva para sua aplicação.</p><div className="callout-contact"><a href={companyLinks.whatsapp} target="_blank" rel="noopener noreferrer"><MessageCircle size={16} aria-hidden="true" />WhatsApp {company.whatsapp.display}</a><a href={companyLinks.phone}><Phone size={16} aria-hidden="true" />{company.phone.display}</a></div></div><Link className="button button-light" href="/solicite-um-orcamento">Solicitar orçamento <ArrowRight size={18} /></Link></div></section>
 
       <section className="section"><div className="container"><SectionHeading eyebrow="Conteúdo técnico" title="Informação para comprar melhor" copy="Materiais curtos e práticos para apoiar suas decisões." /><div className="article-grid">{articles.map((article) => <Link href={`/conteudos/${article.slug}`} className="article-card" key={article.title}><p className="article-type">{article.type}</p><h3>{article.title}</h3><p>{article.description}</p><span className="text-link">Ler conteúdo <ArrowRight size={15} /></span></Link>)}</div></div></section>
       <section className="final-cta"><div className="container"><p className="eyebrow light">Vamos conversar</p><h2>Seu próximo projeto começa com a especificação certa.</h2><Link className="button button-light" href="/solicite-um-orcamento">Solicitar orçamento <ArrowRight size={18} /></Link></div></section>
